@@ -16,6 +16,7 @@ const nextConfig: NextConfig = {
     : {}),
 };
 
-const withNextIntl = createNextIntlPlugin();
+// Explicitly point to the request config to avoid any path resolution issues in CI
+const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
 export default withNextIntl(nextConfig);

@@ -1,15 +1,13 @@
 "use client";
-
-import Link from "next/link";
 import Image from "next/image";
 import heroBg from "@/public/images/background.png";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 export default function Page() {
   const t = useTranslations();
-  const locale = useLocale();
   const speakerNames = (t.raw("Speakers.names") as string[]) || [];
-  const other = locale === "ja" ? "en" : "ja";
+  // Locale is used to format content; switching handled by LanguageSwitcher
 
   return (
     <main>
@@ -24,13 +22,7 @@ export default function Page() {
           <a href="#speakers">{t("Nav.speakers")}</a>
           <a href="#venue">{t("Nav.venue")}</a>
 
-          <Link
-            href={`/${other}`}
-            prefetch
-            className="ml-auto inline-flex items-center rounded-lg px-3 py-1 text-sm border"
-          >
-            {other === "ja" ? t("Lang.ja") : t("Lang.en")}
-          </Link>
+          <LanguageSwitcher />
 
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdesRsVZpp7WS1vut0jc3J5tKT63Y1fYg9X1xBEedxuPAL-fQ/viewform?usp=header"

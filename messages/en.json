@@ -1,0 +1,48 @@
+{
+  "Nav": {
+    "about": "About",
+    "partners": "Partners",
+    "schedule": "Schedule",
+    "speakers": "Speakers",
+    "venue": "Venue",
+    "register": "Register"
+  },
+  "Hero": {
+    "eyebrow": "IBM Qiskit Fall Fest 2024",
+    "title": "October 1–4",
+    "desc": "Hands-on quantum computing workshops, talks, and challenges.",
+    "cta": "Register now"
+  },
+  "About": {
+    "title": "About",
+    "desc": "Replace this with your event description (Qiskit overview, audience, outcomes)."
+  },
+  "Partners": {
+    "title": "Partners",
+    "sponsor": "Sponsor"
+  },
+  "Schedule": {
+    "title": "Schedule",
+    "day1": "Day 1 — Oct 1",
+    "day1Desc": "Venue, agenda…",
+    "day2": "Day 2 — Oct 2",
+    "day2Desc": "Workshops…"
+  },
+  "Speakers": {
+    "title": "Speakers",
+    "names": ["Speaker A", "Speaker B", "Speaker C"],
+    "subtitle": "Title • Affiliation"
+  },
+  "Venue": {
+    "title": "Venue & Contact",
+    "desc": "Venue details, map link, student coordinators, social links…"
+  },
+  "Footer": {
+    "credit": "Built with Next.js & Tailwind"
+  },
+  "Lang": {
+    "ja": "日本語",
+    "en": "English"
+  }
+}
+

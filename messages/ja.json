@@ -1,0 +1,48 @@
+{
+  "Nav": {
+    "about": "概要",
+    "partners": "パートナー",
+    "schedule": "スケジュール",
+    "speakers": "登壇者",
+    "venue": "会場",
+    "register": "申し込む"
+  },
+  "Hero": {
+    "eyebrow": "IBM Qiskit Fall Fest 2024",
+    "title": "10月1日〜4日",
+    "desc": "量子コンピューティングのハンズオン、講演、チャレンジ。",
+    "cta": "今すぐ申し込む"
+  },
+  "About": {
+    "title": "概要",
+    "desc": "ここにイベントの説明（Qiskitの概要、対象、成果など）を記載してください。"
+  },
+  "Partners": {
+    "title": "パートナー",
+    "sponsor": "スポンサー"
+  },
+  "Schedule": {
+    "title": "スケジュール",
+    "day1": "1日目 — 10月1日",
+    "day1Desc": "会場、アジェンダ…",
+    "day2": "2日目 — 10月2日",
+    "day2Desc": "ワークショップ…"
+  },
+  "Speakers": {
+    "title": "登壇者",
+    "names": ["Speaker A", "Speaker B", "Speaker C"],
+    "subtitle": "役職・所属"
+  },
+  "Venue": {
+    "title": "会場・連絡先",
+    "desc": "会場情報、地図リンク、学生オーガナイザー、SNSリンクなど…"
+  },
+  "Footer": {
+    "credit": "Next.js と Tailwind で構築"
+  },
+  "Lang": {
+    "ja": "日本語",
+    "en": "English"
+  }
+}
+

@@ -20,6 +20,32 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Internationalization (JA/EN with next-intl)
+
+- Default locale: `ja` (Japanese). English available at `/en`.
+- Language routes are statically exported to `/ja` and `/en`.
+- Language switcher is in the navbar; the root path `/` redirects to `/ja`.
+
+Tech details:
+
+- Messages live in `messages/ja.json` and `messages/en.json`.
+- Provider lives in `app/[locale]/layout.tsx` via `NextIntlClientProvider`.
+- Pages under `app/[locale]` use `useTranslations` and `useLocale`.
+- `next-intl` plugin is enabled in `next.config.ts`.
+
+### GitHub Pages
+
+This repo is set up to deploy to GitHub Pages via `.github/workflows/nextjs.yml`.
+
+- If deploying to a project site (e.g. `/owner/repo`), the Pages action auto-injects a basePath; no manual change needed.
+- For local builds that mimic a project base path, set `NEXT_PUBLIC_BASE_PATH`:
+
+```bash
+NEXT_PUBLIC_BASE_PATH=/utokyo-qff-2025 npm run build
+```
+
+Output lives in `out/` and can be served via `npm run preview`.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

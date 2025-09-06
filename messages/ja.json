@@ -8,10 +8,17 @@
     "register": "申し込む"
   },
   "Hero": {
-    "eyebrow": "IBM Qiskit Fall Fest 2024",
-    "title": "10月1日〜4日",
-    "desc": "量子コンピューティングのハンズオン、講演、チャレンジ。",
+    "title": "IBM Qiskit Fall Fest 2025",
+    "desc": "量子コンピューティングのハッカソン、講義",
     "cta": "今すぐ申し込む"
+  },
+  "Event": {
+    "dateLabel": "日付",
+    "dateValue": "11/1(土)、 11/8(土)",
+    "timeLabel": "時間",
+    "timeValue": "9:00～20:00",
+    "locationLabel": "場所",
+    "locationValue": "理学部１号館 中央棟 341共通講義室"
   },
   "About": {
     "title": "概要",
@@ -23,9 +30,9 @@
   },
   "Schedule": {
     "title": "スケジュール",
-    "day1": "1日目 — 10月1日",
+    "day1": "1日目 — 11月1日",
     "day1Desc": "会場、アジェンダ…",
-    "day2": "2日目 — 10月2日",
+    "day2": "2日目 — 11月8日",
     "day2Desc": "ワークショップ…"
   },
   "Speakers": {
@@ -45,4 +52,3 @@
     "en": "English"
   }
 }
-

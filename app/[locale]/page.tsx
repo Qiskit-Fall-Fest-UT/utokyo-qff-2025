@@ -8,7 +8,7 @@ import { useTranslations, useLocale } from "next-intl";
 export default function Page() {
   const t = useTranslations();
   const locale = useLocale();
-  const speakerNames = ["Speaker A", "Speaker B", "Speaker C"];
+  const speakerNames = (t.raw("Speakers.names") as string[]) || [];
   const other = locale === "ja" ? "en" : "ja";
 
   return (
@@ -33,7 +33,7 @@ export default function Page() {
           </Link>
 
           <a
-            href="https://example.com/register"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdesRsVZpp7WS1vut0jc3J5tKT63Y1fYg9X1xBEedxuPAL-fQ/viewform?usp=header"
             className="inline-flex items-center rounded-lg px-4 py-2 border"
           >
             {t("Nav.register")}
@@ -59,9 +59,6 @@ export default function Page() {
 
         {/* Content */}
         <div className="mx-auto max-w-6xl px-4 py-24 text-center text-white">
-          <p className="uppercase tracking-widest text-sm/6 opacity-90">
-            {t("Hero.eyebrow")}
-          </p>
           <h1 className="mt-2 text-4xl md:text-6xl font-extrabold drop-shadow-sm">
             {t("Hero.title")}
           </h1>
@@ -72,22 +69,28 @@ export default function Page() {
           {/* Event details */}
           <div className="mt-8 grid gap-3 sm:grid-cols-3 text-left">
             <div className="rounded-lg bg-white/10 backdrop-blur px-4 py-3 border border-white/15">
-              <p className="text-xs uppercase tracking-wider text-white/80">日付</p>
-              <p className="mt-1 font-medium">11/1(土) と 11/8(土) の両日</p>
+              <p className="text-xs uppercase tracking-wider text-white/80">
+                {t("Event.dateLabel")}
+              </p>
+              <p className="mt-1 font-medium">{t("Event.dateValue")}</p>
             </div>
             <div className="rounded-lg bg-white/10 backdrop-blur px-4 py-3 border border-white/15">
-              <p className="text-xs uppercase tracking-wider text-white/80">時間</p>
-              <p className="mt-1 font-medium">9:00～20:00</p>
+              <p className="text-xs uppercase tracking-wider text-white/80">
+                {t("Event.timeLabel")}
+              </p>
+              <p className="mt-1 font-medium">{t("Event.timeValue")}</p>
             </div>
             <div className="rounded-lg bg-white/10 backdrop-blur px-4 py-3 border border-white/15">
-              <p className="text-xs uppercase tracking-wider text-white/80">場所</p>
-              <p className="mt-1 font-medium">理学部１号館 中央棟 341共通講義室</p>
+              <p className="text-xs uppercase tracking-wider text-white/80">
+                {t("Event.locationLabel")}
+              </p>
+              <p className="mt-1 font-medium">{t("Event.locationValue")}</p>
             </div>
           </div>
 
           <div className="mt-8">
             <a
-              href="https://example.com/register"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdesRsVZpp7WS1vut0jc3J5tKT63Y1fYg9X1xBEedxuPAL-fQ/viewform?usp=header"
               className="inline-block rounded-lg px-6 py-3 border border-white/30 bg-white/10 backdrop-blur hover:bg-white/20 transition"
             >
               {t("Hero.cta")}
@@ -159,7 +162,7 @@ export default function Page() {
 
       <footer className="border-t">
         <div className="mx-auto max-w-6xl px-4 py-8 text-sm text-gray-500">
-          © {new Date().getFullYear()} QFF • {t("Footer.credit")}
+          © {new Date().getFullYear()} UTokyo QFF Team
         </div>
       </footer>
     </main>

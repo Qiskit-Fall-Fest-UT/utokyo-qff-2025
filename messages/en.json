@@ -8,10 +8,17 @@
     "register": "Register"
   },
   "Hero": {
-    "eyebrow": "IBM Qiskit Fall Fest 2024",
-    "title": "October 1–4",
+    "title": "IBM Qiskit Fall Fest 2025",
     "desc": "Hands-on quantum computing workshops, talks, and challenges.",
     "cta": "Register now"
+  },
+  "Event": {
+    "dateLabel": "Date",
+    "dateValue": "Nov 1 (Sat) & Nov 8 (Sat)",
+    "timeLabel": "Time",
+    "timeValue": "9:00-20:00",
+    "locationLabel": "Location",
+    "locationValue": "Faculty of Science Bldg. 1, Central Wing, Room 341"
   },
   "About": {
     "title": "About",
@@ -23,9 +30,9 @@
   },
   "Schedule": {
     "title": "Schedule",
-    "day1": "Day 1 — Oct 1",
+    "day1": "Day 1 — Dec 1",
     "day1Desc": "Venue, agenda…",
-    "day2": "Day 2 — Oct 2",
+    "day2": "Day 2 — Dec 8",
     "day2Desc": "Workshops…"
   },
   "Speakers": {
@@ -45,4 +52,3 @@
     "en": "English"
   }
 }
-

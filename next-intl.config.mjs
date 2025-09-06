@@ -4,6 +4,6 @@ export default {
   // Default locale
   defaultLocale: "ja",
   // Keep clean URLs; no prefix for default locale
-  localePrefix: "as-needed" as const
+  localePrefix: "as-needed"
 };
 

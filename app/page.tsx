@@ -1,103 +1,117 @@
-import Image from "next/image";
-
-export default function Home() {
+export default function Page() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
+    <main>
+      {/* Nav */}
+      <header className="sticky top-0 backdrop-blur border-b">
+        <div className="mx-auto max-w-6xl px-4 h-14 flex items-center gap-6">
+          <a href="#about" className="font-medium">
+            About
           </a>
+          <a href="#partners">Partners</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#speakers">Speakers</a>
+          <a href="#venue">Venue</a>
           <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="https://example.com/register"
+            className="ml-auto inline-flex items-center rounded-lg px-4 py-2 border"
           >
-            Read our docs
+            Register
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+      </header>
+
+      {/* Hero */}
+      <section className="bg-gradient-to-b from-gray-50 to-white">
+        <div className="mx-auto max-w-6xl px-4 py-24 text-center">
+          <p className="uppercase tracking-widest text-sm">
+            IBM Qiskit Fall Fest 2024
+          </p>
+          <h1 className="mt-3 text-4xl md:text-6xl font-bold">October 1–4</h1>
+          <p className="mt-4 text-balance text-gray-600">
+            Hands-on quantum computing workshops, talks, and challenges.
+          </p>
+          <div className="mt-8">
+            <a
+              href="https://example.com/register"
+              className="inline-block rounded-lg px-6 py-3 border"
+            >
+              Register now
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* About */}
+      <section id="about" className="mx-auto max-w-6xl px-4 py-16">
+        <h2 className="text-2xl font-semibold">About</h2>
+        <p className="mt-3 text-gray-700">
+          Replace this with your event description (Qiskit overview, audience,
+          outcomes).
+        </p>
+      </section>
+
+      {/* Partners */}
+      <section id="partners" className="mx-auto max-w-6xl px-4 py-16 border-t">
+        <h2 className="text-2xl font-semibold">Partners</h2>
+        <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-6">
+          <div className="aspect-[3/1] rounded-xl border grid place-content-center">
+            IBM
+          </div>
+          <div className="aspect-[3/1] rounded-xl border grid place-content-center">
+            Qiskit
+          </div>
+          <div className="aspect-[3/1] rounded-xl border grid place-content-center">
+            VITC
+          </div>
+          <div className="aspect-[3/1] rounded-xl border grid place-content-center">
+            Sponsor
+          </div>
+        </div>
+      </section>
+
+      {/* Schedule */}
+      <section id="schedule" className="mx-auto max-w-6xl px-4 py-16 border-t">
+        <h2 className="text-2xl font-semibold">Schedule</h2>
+        <ul className="mt-6 space-y-4">
+          <li className="rounded-xl border p-4">
+            <p className="font-medium">Day 1 — Oct 1</p>
+            <p className="text-gray-600">Venue, agenda…</p>
+          </li>
+          <li className="rounded-xl border p-4">
+            <p className="font-medium">Day 2 — Oct 2</p>
+            <p className="text-gray-600">Workshops…</p>
+          </li>
+          {/* Add Day 3/4 */}
+        </ul>
+      </section>
+
+      {/* Speakers */}
+      <section id="speakers" className="mx-auto max-w-6xl px-4 py-16 border-t">
+        <h2 className="text-2xl font-semibold">Speakers</h2>
+        <div className="mt-6 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+          {["Speaker A", "Speaker B", "Speaker C"].map((name) => (
+            <article key={name} className="rounded-xl border p-4">
+              <div className="aspect-square rounded-lg border" />
+              <h3 className="mt-3 font-medium">{name}</h3>
+              <p className="text-gray-600">Title • Affiliation</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      {/* Venue / Contact */}
+      <section id="venue" className="mx-auto max-w-6xl px-4 py-16 border-t">
+        <h2 className="text-2xl font-semibold">Venue & Contact</h2>
+        <p className="mt-3 text-gray-700">
+          Venue details, map link, student coordinators, social links…
+        </p>
+      </section>
+
+      <footer className="border-t">
+        <div className="mx-auto max-w-6xl px-4 py-8 text-sm text-gray-500">
+          © {new Date().getFullYear()} QFF • Built with Next.js & Tailwind
+        </div>
       </footer>
-    </div>
+    </main>
   );
 }

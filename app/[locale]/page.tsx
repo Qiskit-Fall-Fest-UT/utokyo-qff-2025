@@ -14,7 +14,7 @@ export default function Page() {
   return (
     <main>
       {/* Nav */}
-      <header className="sticky top-0 backdrop-blur border-b">
+      <header className="sticky top-0 z-50 backdrop-blur border-b">
         <div className="mx-auto max-w-6xl px-4 h-14 flex items-center gap-6">
           {/* Mobile menu button */}
           <Sheet>

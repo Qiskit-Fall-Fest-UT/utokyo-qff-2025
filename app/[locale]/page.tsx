@@ -4,7 +4,7 @@ import heroBg from "@/public/images/background.png";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { Menu, X } from "lucide-react";
-import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetClose, SheetTitle, SheetDescription } from "@/components/ui/sheet";
 
 export default function Page() {
   const t = useTranslations();
@@ -28,6 +28,10 @@ export default function Page() {
               </button>
             </SheetTrigger>
             <SheetContent side="right">
+              {/* A11y title/description for Radix Dialog */}
+              <SheetTitle className="sr-only">Menu</SheetTitle>
+              <SheetDescription className="sr-only">Site navigation drawer</SheetDescription>
+
               <div className="flex items-center justify-between">
                 <span className="text-sm font-medium">Menu</span>
                 <SheetClose asChild>

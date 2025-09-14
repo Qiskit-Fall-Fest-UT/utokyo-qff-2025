@@ -31,6 +31,15 @@
     "title": "What is Qiskit Fall Fest?",
     "desc": "The Qiskit Fall Fest is a global series of events held at universities worldwide on the theme of quantum computing. Taking place annually from October to November, these events are primarily planned and run by students with support from IBM Quantum, featuring a diverse range of programs.\nThe UTokyo Qiskit Fall Fest 2025 offers a venue for students interested in quantum technology to learn and experience quantum computers through workshops and a hackathon, aiming to foster an environment of collaborative learning and challenge among participants.\nThe year 2025 marks the 100th anniversary of the initial development of quantum mechanics. To honor this history, Qiskit Fall Fest in 2025 is themed around the progress of quantum science and innovation. Let's take a step together toward the future of quantum computing from the University of Tokyo!"
   },
+  "Flow": {
+    "title": "Event Details",
+    "step1Title": "Step 1\u00A0:\u00A0 Lecture & Hands-on",
+    "step1Desc": "Learn the fundamentals and applications of quantum computing through lectures and hands-on sessions.",
+    "step2Title": "Step 2\u00A0:\u00A0 Hackathon",
+    "step2Desc": "Apply your knowledge to develop quantum algorithms with your team. This is your chance to challenge yourself and bring ideas to life.",
+    "step3Title": "Step 3\u00A0:\u00A0 Judging & Results Announcement",
+    "step3Desc": "Make a presentation of what your team has developed and receive feedback from the judges.\nThere will be prizes for the top teams!"
+  },
   "Partners": {
     "title": "Partners",
     "sponsor": "Sponsor"

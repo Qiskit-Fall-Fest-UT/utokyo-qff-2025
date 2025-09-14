@@ -1,6 +1,7 @@
 "use client";
+import React from "react";
 import Image from "next/image";
-import heroBg from "@/public/images/background.png";
+import heroBg from "@/public/images/utokyo-qff-hero.png";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { Menu, X } from "lucide-react";
@@ -144,20 +145,27 @@ export default function Page() {
             className="object-cover object-center"
           />
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black/50" aria-hidden="true" />
+          {/* <div className="absolute inset-0 bg-black/50" aria-hidden="true" /> */}
         </div>
 
         {/* Content */}
-        <div className="mx-auto max-w-6xl px-4 py-24 text-center text-white">
+        <div className="mx-auto max-w-6xl px-8 py-24 text-left text-white">
           <h1 className="mt-2 text-4xl md:text-6xl font-extrabold drop-shadow-sm">
-            {t("Hero.title")}
+            {t("Hero.title")
+              .split("\n")
+              .map((line, index) => (
+                <React.Fragment key={index}>
+                  {index > 0 && <br />}
+                  {line}
+                </React.Fragment>
+            ))}
           </h1>
-          <p className="mt-4 text-balance text-white/90 max-w-3xl mx-auto">
+          <p className="mt-4 text-balance text-white max-w-3xl">
             {t("Hero.desc")}
           </p>
 
           {/* Event details */}
-          <div className="mt-8 grid gap-3 sm:grid-cols-3 text-left">
+          {/* <div className="mt-8 grid gap-3 sm:grid-cols-3 text-left">
             <div className="rounded-lg bg-white/10 backdrop-blur px-4 py-3 border border-white/15">
               <p className="text-xs uppercase tracking-wider text-white/80">
                 {t("Event.dateLabel")}
@@ -176,12 +184,13 @@ export default function Page() {
               </p>
               <p className="mt-1 font-medium">{t("Event.locationValue")}</p>
             </div>
-          </div>
+          </div> */}
 
           <div className="mt-8">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSdesRsVZpp7WS1vut0jc3J5tKT63Y1fYg9X1xBEedxuPAL-fQ/viewform?usp=header"
-              className="inline-block rounded-lg px-6 py-3 border border-white/30 bg-white/10 backdrop-blur hover:bg-white/20 transition"
+              target="_blank"
+              className="inline-block rounded-lg px-6 py-3 border border-[#c8628f] bg-[#ff7eb6] backdrop-blur font-bold hover:bg-[#c8628f] transition"
             >
               {t("Hero.cta")}
             </a>

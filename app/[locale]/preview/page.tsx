@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import heroBg from "@/public/images/utokyo-qff-hero.png";
+import aboutImage from "@/public/images/badge_pink.png"; 
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { Menu, X } from "lucide-react";
@@ -198,10 +199,55 @@ export default function Page() {
         </div>
       </section>
 
+      {/* Information */}
+      <section id="infomation" className="mx-auto max-w-6xl px-4 pt-10 pb-8 text-center">
+        <p className="m-4 text-[#c49cee] text-xl">{t("Information.date-str")}</p>
+        <div className="relative inline-block">
+          <h2 className="text-4xl font-semibold">{t("Information.date")}</h2>
+          <p className="absolute bottom-0 -right-12 translate-x-full text-gray-400 whitespace-nowrap">{t("Information.note")}</p>
+        </div>
+        <p className="mt-10 mb-4 text-[#c49cee] text-xl">{t("Information.place-str")}</p>
+        <p className="text-white text-3xl font-semibold leading-relaxed">
+          {t("Information.place")
+            .split("\n")
+            .map((line, index) => (
+              <React.Fragment key={index}>
+                {index > 0 && <br />}
+                {line}
+              </React.Fragment>
+          ))}
+        </p>
+      </section>
+
       {/* About */}
       <section id="about" className="mx-auto max-w-6xl px-4 py-16">
-        <h2 className="text-2xl font-semibold">{t("About.title")}</h2>
-        <p className="mt-3 text-gray-700">{t("About.desc")}</p>
+        {/* Flexbox */}
+        <div className="flex flex-col md:flex-row md:items-center md:gap-8">
+          
+          {/* 左側のテキストエリア */}
+          <div className="w-full md:w-2/3">
+            <h2 className="text-3xl font-semibold">{t("About.title")}</h2>
+            <p className="mt-8 text-white leading-relaxed text-justify">
+              {t("About.desc")
+                .split("\n")
+                .map((line, index) => (
+                  <React.Fragment key={index}>
+                    {index > 0 && <br />}
+                    {line}
+                  </React.Fragment>
+              ))}
+            </p>
+          </div>
+
+          {/* 右側の画像エリア */}
+          <div className="mt-8 md:mt-0 w-full md:w-1/3">
+            <Image
+              src={aboutImage}
+              alt="About image"
+              className="rounded-lg object-cover p-10"
+            />
+          </div>
+        </div>
       </section>
 
       {/* Partners */}

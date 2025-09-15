@@ -4,6 +4,8 @@ import Image from "next/image";
 import heroBg from "@/public/images/utokyo-qff-hero.png";
 import aboutImage from "@/public/images/badge_pink.png"; 
 import catImage from "@/public/images/Cat_01_r.png"; 
+import ibmImage from "@/public/images/IBM_Quantum_Logo.png"; 
+import utokyoImage from "@/public/images/todai_logo.png"; 
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { Menu, X } from "lucide-react";
@@ -333,28 +335,51 @@ export default function Page() {
       </section>
 
       {/* Partners */}
-      <section id="partners" className="mx-auto max-w-6xl px-4 py-16 border-t">
-        <h2 className="text-2xl font-semibold">{t("Partners.title")}</h2>
-        <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-6">
-          <div className="aspect-[3/1] rounded-xl border grid place-content-center">
-            IBM
+      <section id="partners" className="mx-auto max-w-6xl px-4 my-16 pt-14 pb-16 border-y botder-b">
+        <h2 className="text-3xl font-semibold">{t("Partners.title")}</h2>
+        <div className="mt-6 ml-6 grid grid-cols-2 sm:grid-cols-4 gap-8">
+          <div className="
+            flex flex-col items-center justify-center
+            gap-8 p-6 bg-[#d9d9d9] rounded-2xl border 
+            shadow-md transition-all hover:shadow-xl hover:-translate-y-1
+          ">
+            {/* ロゴ */}
+            <Image
+              src={ibmImage} 
+              alt="IBM Quantum"            
+              className="h-16 w-auto object-contain" 
+            />
+            {/* タイトル */}
+            <h3 className="text-lg font-semibold text-gray-800 text-center">
+              {t("Partners.ibm")}
+            </h3>
           </div>
-          <div className="aspect-[3/1] rounded-xl border grid place-content-center">
-            Qiskit
-          </div>
-          <div className="aspect-[3/1] rounded-xl border grid place-content-center">
-            協創課
-          </div>
-          <div className="aspect-[3/1] rounded-xl border grid place-content-center">
-            {t("Partners.sponsor")}
+          <div className="
+            flex flex-col items-center justify-center
+            gap-8 p-6 bg-[#d9d9d9] rounded-2xl border 
+            shadow-md transition-all hover:shadow-xl hover:-translate-y-1
+          ">
+            {/* ロゴ */}
+            <Image
+              src={utokyoImage} 
+              alt="the University of Tokyo"            
+              className="h-16 w-auto object-contain" 
+            />
+            {/* タイトル */}
+            <h3 className="text-lg font-semibold text-gray-800 text-center">
+              {t("Partners.utokyo")}
+            </h3>
           </div>
         </div>
       </section>
 
       {/* Schedule */}
-      <section id="schedule" className="mx-auto max-w-6xl px-4 py-16 border-t">
-        <h2 className="text-2xl font-semibold">{t("Schedule.title")}</h2>
-        <ul className="mt-6 space-y-4">
+      <section id="schedule" className="mx-auto max-w-6xl px-4 py-16">
+        <h2 className="text-3xl font-semibold">{t("Schedule.title")}</h2>
+        <h3 className="text-3xl font-semibold pl-12 m-8 text-[#c49cee]">
+          {t("Schedule.desc")}
+        </h3>
+        {/* <ul className="mt-6 space-y-4">
           <li className="rounded-xl border p-4">
             <p className="font-medium">{t("Schedule.day1")}</p>
             <p className="text-gray-600">{t("Schedule.day1Desc")}</p>
@@ -363,14 +388,17 @@ export default function Page() {
             <p className="font-medium">{t("Schedule.day2")}</p>
             <p className="text-gray-600">{t("Schedule.day2Desc")}</p>
           </li>
-          {/* Add Day 3/4 */}
-        </ul>
+          {/* Add Day 3/4 }
+          </ul> */}
       </section>
 
       {/* Speakers */}
-      <section id="speakers" className="mx-auto max-w-6xl px-4 py-16 border-t">
+      <section id="speakers" className="mx-auto max-w-6xl px-4 py-16">
         <h2 className="text-2xl font-semibold">{t("Speakers.title")}</h2>
-        <div className="mt-6 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+        <h3 className="text-3xl font-semibold pl-12 m-8 text-[#c49cee]">
+          {t("Speakers.desc")}
+        </h3>
+        {/* <div className="mt-6 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
           {speakerNames.map((name) => (
             <article key={name} className="rounded-xl border p-4">
               <div className="aspect-square rounded-lg border" />
@@ -378,13 +406,13 @@ export default function Page() {
               <p className="text-gray-600">{t("Speakers.subtitle")}</p>
             </article>
           ))}
-        </div>
+        </div> */}
       </section>
 
-      {/* Venue / Contact */}
-      <section id="venue" className="mx-auto max-w-6xl px-4 py-16 border-t">
+      {/* Venue */}
+      <section id="venue" className="mx-auto max-w-6xl px-4 py-16">
         <h2 className="text-2xl font-semibold">{t("Venue.title")}</h2>
-        <p className="mt-3 text-gray-700">{t("Venue.desc")}</p>
+        {/* <p className="mt-3 text-gray-700">{t("Venue.desc")}</p> */}
         {/* Map */}
         <div className="mt-6 rounded-xl overflow-hidden border">
           <div className="relative aspect-[16/9]">

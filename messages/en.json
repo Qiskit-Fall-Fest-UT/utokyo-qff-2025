@@ -42,10 +42,13 @@
   },
   "Partners": {
     "title": "Partners",
+    "ibm": "IBM Quantum",
+    "utokyo": "the University of Tokyo",
     "sponsor": "Sponsor"
   },
   "Schedule": {
     "title": "Schedule",
+    "desc": "coming soon...",
     "day1": "Day 1 — Dec 1",
     "day1Desc": "Venue, agenda…",
     "day2": "Day 2 — Dec 8",
@@ -53,11 +56,12 @@
   },
   "Speakers": {
     "title": "Speakers",
+    "desc": "coming soon...",
     "names": ["Speaker A", "Speaker B", "Speaker C"],
     "subtitle": "Title • Affiliation"
   },
   "Venue": {
-    "title": "Venue & Contact",
+    "title": "Venue",
     "desc": "Venue details, map link, student coordinators, social links…"
   },
   "Footer": {

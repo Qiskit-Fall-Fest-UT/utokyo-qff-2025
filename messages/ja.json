@@ -42,10 +42,13 @@
   },
   "Partners": {
     "title": "パートナー",
+    "ibm": "IBM Quantum",
+    "utokyo": "東京大学",
     "sponsor": "スポンサー"
   },
   "Schedule": {
     "title": "スケジュール",
+    "desc": "coming soon...",
     "day1": "1日目 — 11月1日",
     "day1Desc": "会場、アジェンダ…",
     "day2": "2日目 — 11月8日",
@@ -53,11 +56,12 @@
   },
   "Speakers": {
     "title": "登壇者",
+    "desc": "coming soon...",
     "names": ["Speaker A", "Speaker B", "Speaker C"],
     "subtitle": "役職・所属"
   },
   "Venue": {
-    "title": "会場・連絡先",
+    "title": "開催場所",
     "desc": "会場情報、地図リンク、学生オーガナイザー、SNSリンクなど…"
   },
   "Footer": {

@@ -8,8 +8,8 @@
     "register": "申し込む"
   },
   "Hero": {
-    "title": "IBM Qiskit Fall Fest 2025",
-    "desc": "量子コンピューティングのハッカソン、講義",
+    "title": "UTokyo\nQiskit Fall Fest\n2025",
+    "desc": "量子コンピューティングのハッカソンへようこそ！",
     "cta": "今すぐ申し込む"
   },
   "Event": {
@@ -20,16 +20,35 @@
     "locationLabel": "場所",
     "locationValue": "理学部１号館 中央棟 341共通講義室"
   },
+  "Information": {
+    "date-str": "《 \u00A0Date\u00A0 》",
+    "date": "2025.11.01 sat\u00A0\u00A0&\u00A0\u00A011.08 sat",
+    "note": "※ 両日参加必須",
+    "place-str": "《 \u00A0Place\u00A0 》",
+    "place": "東京大学本郷キャンパス\n理学部1号館 中央棟 341共通講義室"
+  },
   "About": {
-    "title": "概要",
-    "desc": "ここにイベントの説明（Qiskitの概要、対象、成果など）を記載してください。"
+    "title": "What is Qiskit Fall Fest?",
+    "desc": "Qiskit Fall Festは、量子コンピューティングをテーマに世界中の大学で開催されるグローバルイベントシリーズです。毎年10月から11月にかけて、学生を中心に企画・運営され、IBM Quantumのサポートのもと、多彩なプログラムが展開されます。\nUTokyo Qiskit Fall Fest 2025では、量子技術に関心を持つ学生を対象に、ワークショップやハッカソンを通じて量子コンピュータを学び、体験できる場を提供します。参加者同士が交流しながら学び合い、挑戦することを目指しています。\n2025年は量子力学誕生から100周年。その歴史を称え、今年のQiskit Fall Festは量子科学とイノベーションの歩みをテーマに開催されます。記念すべきこの年に、東京大学から量子コンピュータの未来へ一緒に踏み出しましょう！"
+  },
+  "Flow": {
+    "title": "イベント内容",
+    "step1Title": "Step 1\u00A0:\u00A0 レクチャー・ハンズオン",
+    "step1Desc": "量子コンピュータの基礎から応用まで、\n講義と実践的なハンズオンを通じて学びます。",
+    "step2Title": "Step 2\u00A0:\u00A0 ハッカソン",
+    "step2Desc": "学んだ知識を活かしチームで量子アルゴリズムを開発。\nアイデアを形にする挑戦の場です。",
+    "step3Title": "Step 3\u00A0:\u00A0 審査・結果発表",
+    "step3Desc": "チームで開発した成果を発表し、\n審査員からのフィードバックを受けます。\n優秀チームには賞品も！"
   },
   "Partners": {
     "title": "パートナー",
+    "ibm": "IBM Quantum",
+    "utokyo": "東京大学",
     "sponsor": "スポンサー"
   },
   "Schedule": {
     "title": "スケジュール",
+    "desc": "coming soon...",
     "day1": "1日目 — 11月1日",
     "day1Desc": "会場、アジェンダ…",
     "day2": "2日目 — 11月8日",
@@ -37,11 +56,12 @@
   },
   "Speakers": {
     "title": "登壇者",
+    "desc": "coming soon...",
     "names": ["Speaker A", "Speaker B", "Speaker C"],
     "subtitle": "役職・所属"
   },
   "Venue": {
-    "title": "会場・連絡先",
+    "title": "開催場所",
     "desc": "会場情報、地図リンク、学生オーガナイザー、SNSリンクなど…"
   },
   "Footer": {

@@ -6,9 +6,9 @@ export default function SpeakersSection() {
   const t = useTranslations();
 
   return (
-    <section id="speakers" className="mx-auto max-w-6xl px-4 py-16">
-      <h2 className="text-2xl font-semibold">{t("Speakers.title")}</h2>
-      <h3 className="text-3xl font-semibold pl-12 m-8 text-[#c49cee]">
+    <section id="speakers" className="mx-auto max-w-6xl px-8 md:px-4 py-12 md:py-16">
+      <h2 className="text-2xl md:text-3xl font-semibold">{t("Speakers.title")}</h2>
+      <h3 className="text-2xl md:text-3xl font-semibold pl-12 m-8 text-[#c49cee]">
         {t("Speakers.desc")}
       </h3>
       {/* const speakerNames = (t.raw("Speakers.names") as string[]) || []; */}

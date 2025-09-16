@@ -14,14 +14,14 @@ export default function FlowSection() {
   const renderLines = (lines: string[]) =>
     lines.map((line, index) => (
       <Fragment key={line + index}>
-        {index > 0 && <br />}
+        {index > 0 && <br className="hidden md:block"/>}
         {line}
       </Fragment>
     ));
 
   return (
-    <section id="flow" className="mx-auto max-w-6xl px-4 py-8">
-      <h2 className="text-3xl font-semibold text-center mb-16 text-[#c49cee]">
+    <section id="flow" className="mx-auto max-w-6xl px-8 md:px-4 py-8">
+      <h2 className="text-2xl md:text-3xl font-semibold text-center pt-12 md:pt-0 mb-8 md:mb-16 text-[#c49cee]">
         {t("Flow.title")}
       </h2>
 
@@ -29,26 +29,26 @@ export default function FlowSection() {
         <div className="relative">
           <div className="hidden md:block absolute left-1/2 -translate-x-1/2 top-0 h-2/3 w-1.5 bg-gray-300" />
 
-          <div className="relative pl-12 pb-12 md:pl-0 md:flex md:items-center">
+          <div className="relative md:pl-12 md:pb-12 md:pl-0 md:flex md:items-center">
             <div className="md:w-1/2 md:pr-12 md:text-right">
-              <h3 className="text-2xl font-semibold mb-4">{t("Flow.step1Title")}</h3>
-              <p className="text-lg text-white/90 leading-relaxed">{renderLines(step1Lines)}</p>
+              <h3 className="text-xl md:text-2xl font-semibold mb-4">{t("Flow.step1Title")}</h3>
+              <p className="text-lg text-white/90 leading-relaxed text-sm md:text-base pb-8 md:pb-0 px-4 md:px-0">{renderLines(step1Lines)}</p>
             </div>
             <div className="hidden md:block absolute left-1/2 top-0 w-8 h-8 rounded-full bg-[#ff7eb6] text-white flex items-center justify-center font-bold text-lg -translate-x-1/2" />
           </div>
 
-          <div className="relative pl-12 pb-12 md:pl-0 md:flex md:flex-row-reverse md:items-center">
+          <div className="relative md:pl-12 md:pb-12 md:pl-0 md:flex md:flex-row-reverse md:items-center">
             <div className="md:w-1/2 md:pl-12 md:text-left">
-              <h3 className="text-2xl font-semibold mb-4">{t("Flow.step2Title")}</h3>
-              <p className="text-lg text-white/90 leading-relaxed">{renderLines(step2Lines)}</p>
+              <h3 className="text-xl md:text-2xl font-semibold mb-4">{t("Flow.step2Title")}</h3>
+              <p className="text-lg text-white/90 leading-relaxed text-sm md:text-base pb-8 md:pb-0 px-4 md:px-0">{renderLines(step2Lines)}</p>
             </div>
             <div className="hidden md:block absolute left-1/2 top-0 w-8 h-8 rounded-full bg-[#ff7eb6] text-white flex items-center justify-center font-bold text-lg -translate-x-1/2" />
           </div>
 
-          <div className="relative pl-12 pb-12 md:pl-0 md:flex md:items-center">
+          <div className="relative md:pl-12 md:pb-12 md:pl-0 md:flex md:items-center">
             <div className="md:w-1/2 md:pr-12 md:text-right">
-              <h3 className="text-2xl font-semibold mb-4">{t("Flow.step3Title")}</h3>
-              <p className="text-lg text-white/90 leading-relaxed">{renderLines(step3Lines)}</p>
+              <h3 className="text-xl md:text-2xl font-semibold mb-4">{t("Flow.step3Title")}</h3>
+              <p className="text-lg text-white/90 leading-relaxed text-sm md:text-base pb-8 md:pb-0 px-4 md:px-0">{renderLines(step3Lines)}</p>
             </div>
             <div className="hidden md:block absolute left-1/2 top-0 w-8 h-8 rounded-full bg-[#ff7eb6] text-white flex items-center justify-center font-bold text-lg -translate-x-1/2" />
             <div className="hidden md:block absolute top-0 bottom-0 right-0">

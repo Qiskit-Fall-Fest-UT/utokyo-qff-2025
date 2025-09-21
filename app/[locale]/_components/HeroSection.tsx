@@ -58,7 +58,7 @@ export default function HeroSection() {
       
 
       <div className="mx-auto max-w-6xl px-8 py-24 text-left text-white hidden md:block">
-        <h1 className="mt-2 text-4xl md:text-6xl font-extrabold drop-shadow-sm">
+        <h1 className="mt-2 text-4xl md:text-6xl font-extrabold drop-shadow-md">
           {headlineLines.map((line, index) => (
             <Fragment key={line + index}>
               {index > 0 && <br />}

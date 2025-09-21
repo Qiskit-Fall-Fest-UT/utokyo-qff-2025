@@ -1,8 +1,15 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #060e20;
+  --foreground: #ffffff;
+}
+
+html {
+  color-scheme: dark;
 }
 
 @theme inline {

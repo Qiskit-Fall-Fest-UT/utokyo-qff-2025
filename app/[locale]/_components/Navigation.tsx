@@ -98,7 +98,7 @@ export default function Navigation() {
 
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSdesRsVZpp7WS1vut0jc3J5tKT63Y1fYg9X1xBEedxuPAL-fQ/viewform?usp=header"
-          className="hidden md:inline-flex items-center rounded-lg px-4 py-2 border"
+          className="hidden md:inline-flex items-center rounded-lg px-4 py-1 border border-[#c8628f] bg-[#ff7eb6] font-bold hover:bg-[#c8628f]"
         >
           {t("Nav.register")}
         </a>

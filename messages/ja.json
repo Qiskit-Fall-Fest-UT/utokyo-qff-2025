@@ -36,7 +36,7 @@
     "step1Title": "Step 1\u00A0:\u00A0 レクチャー・ハンズオン",
     "step1Desc": "量子コンピュータの基礎から応用まで、\n講義と実践的なハンズオンを通じて学びます。",
     "step2Title": "Step 2\u00A0:\u00A0 ハッカソン",
-    "step2Desc": "学んだ知識を活かしチームで量子アルゴリズムを開発。\nアイデアを形にする挑戦の場です。",
+    "step2Desc": "学んだ知識を活かし、チームで量子アルゴリズムを開発。\nアイデアを形にする挑戦の場です。",
     "step3Title": "Step 3\u00A0:\u00A0 審査・結果発表",
     "step3Desc": "チームで開発した成果を発表し、\n審査員からのフィードバックを受けます。\n優秀チームには賞品も！"
   },
@@ -55,10 +55,32 @@
     "day2Desc": "ワークショップ…"
   },
   "Speakers": {
-    "title": "登壇者",
-    "desc": "coming soon...",
+    "title": "審査員",
+    "desc": "このハッカソンでは、以下4名の審査員によって審査が行われます。",
     "names": ["Speaker A", "Speaker B", "Speaker C"],
-    "subtitle": "役職・所属"
+    "subtitle": "役職・所属",
+    "list": [
+        {
+          "name": "相原博昭",
+          "affiliation": "東京大学\u00A0理事・副学長",
+          "imageUrl": "photo_aihara"
+        },
+        {
+          "name": "寺師弘二",
+          "affiliation": "東京大学\u00A0教授",
+          "imageUrl": "photo_terashi"
+        },
+        {
+          "name": "",
+          "affiliation": "東京大学\u00A0",
+          "imageUrl": "photo_default"
+        },
+        {
+          "name": "堀井洋",
+          "affiliation": "IBM Quantum Japan 統括部長",
+          "imageUrl": "photo_horii"
+        }
+      ]
   },
   "Venue": {
     "title": "開催場所",

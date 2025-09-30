@@ -35,15 +35,15 @@ export default function SpeakersSection() {
           {speakers.map((speaker) => (
             <div 
               key={speaker.name} 
-              className="flex-shrink-0 w-60 rounded-xl shadow-lg bg-white overflow-hidden transform transition-all hover:-translate-y-1 hover:shadow-2xl"
+              className="flex-shrink-0 w-40 md:w-60 rounded-xl shadow-lg bg-white overflow-hidden transform transition-all hover:-translate-y-1 hover:shadow-2xl"
             >
               <Image
                 src={speakerImages[speaker.imageUrl]}
                 alt={`${speaker.name}の写真`}
-                className="w-full h-60 object-cover object-top"
+                className="w-full h-40 md:h-60 object-cover object-top"
               />
               <div className="p-4">
-                <h3 className="text-lg font-semibold text-gray-900">{speaker.name}</h3>
+                <h3 className="md:text-lg font-semibold text-gray-900 whitespace-pre-line md:whitespace-normal">{speaker.name}</h3>
                 <p className="text-sm text-gray-600 mt-1 whitespace-pre-line">
                   {speaker.affiliation}
                 </p>

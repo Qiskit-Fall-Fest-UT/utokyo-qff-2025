@@ -33,6 +33,9 @@
   },
   "Flow": {
     "title": "Event Details",
+    "step0Title": "Step 0: Pre Workshop",
+    "step0Subdesc": "*Optional",
+    "step0Desc": "We will hold a catch-up session for participants new to Qiskit,\\ncovering fundamentals such as environment setup and basic gate operations.",
     "step1Title": "Step 1\u00A0:\u00A0 Lecture & Hands-on",
     "step1Desc": "Learn the fundamentals and applications of quantum computing through lectures and hands-on sessions.",
     "step2Title": "Step 2\u00A0:\u00A0 Hackathon",
@@ -77,7 +80,7 @@
         },
         {
           "name": "HORII Hiroshi",
-          "affiliation": "Head of IBM Quantum Japan",
+          "affiliation": "Head of \nIBM Quantum Japan",
           "imageUrl": "photo_horii"
         }
       ]

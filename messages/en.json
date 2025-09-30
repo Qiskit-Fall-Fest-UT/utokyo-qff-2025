@@ -55,10 +55,32 @@
     "day2Desc": "Workshops…"
   },
   "Speakers": {
-    "title": "Speakers",
-    "desc": "coming soon...",
+    "title": "Judges",
+    "desc": "For this hackathon, judging will be conducted by the following four judges.",
     "names": ["Speaker A", "Speaker B", "Speaker C"],
-    "subtitle": "Title • Affiliation"
+    "subtitle": "Title • Affiliation",
+    "list": [
+        {
+          "name": "AIHARA Hiroaki",
+          "affiliation": "University of Tokyo\nExecutive Vice President",
+          "imageUrl": "photo_aihara"
+        },
+        {
+          "name": "TERASHI Koji",
+          "affiliation": "University of Tokyo\nProfessor",
+          "imageUrl": "photo_terashi"
+        },
+        {
+          "name": "",
+          "affiliation": "University of Tokyo\n",
+          "imageUrl": "photo_default"
+        },
+        {
+          "name": "HORII Hiroshi",
+          "affiliation": "Head of IBM Quantum Japan",
+          "imageUrl": "photo_horii"
+        }
+      ]
   },
   "Venue": {
     "title": "Venue",

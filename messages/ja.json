@@ -33,6 +33,9 @@
   },
   "Flow": {
     "title": "イベント内容",
+    "step0Title": "Step 0\u00A0:\u00A0 事前講習会",
+    "step0Subdesc": "※参加任意",
+    "step0Desc": "Qiskit環境構築や基本のゲート操作のレクチャーなど、\nQiskit未経験者向けのキャッチアップを行います。",
     "step1Title": "Step 1\u00A0:\u00A0 レクチャー・ハンズオン",
     "step1Desc": "量子コンピュータの基礎から応用まで、\n講義と実践的なハンズオンを通じて学びます。",
     "step2Title": "Step 2\u00A0:\u00A0 ハッカソン",
@@ -62,12 +65,12 @@
     "list": [
         {
           "name": "相原博昭",
-          "affiliation": "東京大学\u00A0理事・副学長",
+          "affiliation": "東京大学\u00A0\n理事・副学長",
           "imageUrl": "photo_aihara"
         },
         {
           "name": "寺師弘二",
-          "affiliation": "東京大学\u00A0教授",
+          "affiliation": "東京大学\u00A0\n教授",
           "imageUrl": "photo_terashi"
         },
         {

@@ -7,6 +7,7 @@ import catImage from "@/public/images/Cat_01_r.png";
 
 export default function FlowSection() {
   const t = useTranslations();
+  const step0Lines = t("Flow.step0Desc").split("\n");
   const step1Lines = t("Flow.step1Desc").split("\n");
   const step2Lines = t("Flow.step2Desc").split("\n");
   const step3Lines = t("Flow.step3Desc").split("\n");
@@ -27,9 +28,22 @@ export default function FlowSection() {
 
       <div className="max-w-5xl mx-auto">
         <div className="relative">
-          <div className="hidden md:block absolute left-1/2 -translate-x-1/2 top-0 h-2/3 w-1.5 bg-gray-300" />
+          <div className="hidden md:block absolute left-1/2 -translate-x-1/2 top-0 h-3/4 w-1.5 bg-gray-300" />
 
-          <div className="relative md:pl-12 md:pb-12 md:pl-0 md:flex md:items-center">
+          <div className="relative md:pl-12 md:pb-12 md:pl-0 md:flex md:flex-row-reverse md:items-center">
+            <div className="md:w-1/2 md:pl-12 md:text-left">
+              <div className="text-sm inline-flex items-baseline gap-6 md:gap-0">
+                <h3 className="text-xl md:text-2xl font-semibold mb-4">{t("Flow.step0Title")}</h3>
+                <p className="md:bottom-4 md:-right-8 md:translate-x-full text-gray-400 whitespace-nowrap">
+                  {t("Flow.step0Subdesc")}
+                </p>
+              </div>
+              <p className="text-lg text-white/90 leading-relaxed text-sm md:text-base pb-8 md:pb-0 px-4 md:px-0">{renderLines(step0Lines)}</p>
+            </div>
+            <div className="hidden md:block absolute left-1/2 top-0 w-8 h-8 rounded-full bg-[#ff7eb6] text-white flex items-center justify-center font-bold text-lg -translate-x-1/2" />
+          </div>
+
+          <div className="relative md:pr-12 md:pb-12 md:pl-0 md:flex md:items-center">
             <div className="md:w-1/2 md:pr-12 md:text-right">
               <h3 className="text-xl md:text-2xl font-semibold mb-4">{t("Flow.step1Title")}</h3>
               <p className="text-lg text-white/90 leading-relaxed text-sm md:text-base pb-8 md:pb-0 px-4 md:px-0">{renderLines(step1Lines)}</p>
@@ -45,7 +59,7 @@ export default function FlowSection() {
             <div className="hidden md:block absolute left-1/2 top-0 w-8 h-8 rounded-full bg-[#ff7eb6] text-white flex items-center justify-center font-bold text-lg -translate-x-1/2" />
           </div>
 
-          <div className="relative md:pl-12 md:pb-12 md:pl-0 md:flex md:items-center">
+          <div className="relative md:pr-12 md:pb-12 md:pl-0 md:flex md:items-center">
             <div className="md:w-1/2 md:pr-12 md:text-right">
               <h3 className="text-xl md:text-2xl font-semibold mb-4">{t("Flow.step3Title")}</h3>
               <p className="text-lg text-white/90 leading-relaxed text-sm md:text-base pb-8 md:pb-0 px-4 md:px-0">{renderLines(step3Lines)}</p>

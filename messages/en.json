@@ -35,7 +35,7 @@
     "title": "Event Details",
     "step0Title": "Step 0: Pre Workshop",
     "step0Subdesc": "*Optional",
-    "step0Desc": "We will hold a catch-up session for participants new to Qiskit,\\ncovering fundamentals such as environment setup and basic gate operations.",
+    "step0Desc": "We will hold a catch-up session for participants new to Qiskit,\ncovering fundamentals such as environment setup and basic gate operations.",
     "step1Title": "Step 1\u00A0:\u00A0 Lecture & Hands-on",
     "step1Desc": "Learn the fundamentals and applications of quantum computing through lectures and hands-on sessions.",
     "step2Title": "Step 2\u00A0:\u00A0 Hackathon",
@@ -51,11 +51,54 @@
   },
   "Schedule": {
     "title": "Schedule",
-    "desc": "coming soon...",
-    "day1": "Day 1 — Dec 1",
-    "day1Desc": "Venue, agenda…",
-    "day2": "Day 2 — Dec 8",
-    "day2Desc": "Workshops…"
+    "desc": "The detailed hackathon schedule will be provided after the participant registration.",
+    "days": [
+      {
+        "date": "Day 0: Pre-Training Sessions",
+        "events": [
+          { "time": "", "title": "*Optional Attendance" },
+          { "time": "", "title": "Hybrid (In-person and Online) Event" },
+          { "time": "", "title": "In-person Venue: Science Building No.1" },
+          { "time": "Mon, Oct. 27th, 18:30-20:30", "title": "" },
+          { "time": "", "title": "Contents to be determined" },
+          { "time": "Wed, Oct. 29th, 18:30-20:30", "title": "" },
+          { "time": "", "title": "Contents to be determined" },
+          { "time": "Thu, Oct. 30th, 18:30-20:30", "title": "" },
+          { "time": "", "title": "Contents to be determined" }
+        ]
+      },
+      {
+        "date": "Day 1 : November 1st (sat)",
+        "events": [
+          { "time": "10:00", "title": "Opening" },
+          { "time": "", "title": "Lecture & Hands-on Session" },
+          { "time": "", "title": "Team Building" },
+          { "time": "", "title": "Team Development" },
+          { "time": "Lunch Break", "title": "" },
+          { "time": "", "title": "Team Development" },
+          { "time": "", "title": "Mid-term Report" },
+          { "time": "18:00", "title": "Closing" }
+        ]
+      },
+      {
+        "date": "Day 2 : November 8th (sat)",
+        "events": [
+          { "time": "10:00", "title": "Opening" },
+          { "time": "", "title": "Team Work" },
+          { "time": "Lunch Break", "title": "" },
+          { "time": "", "title": "Team Work" },
+          { "time": "", "title": "Mid-term Report" },
+          { "time": "18:00", "title": "Closing" },
+          { "time": "", "title": "Team Development" },
+          { "time": "", "title": "Submission of Deliverables" },
+          { "time": "Presentation Session", "title": "" },
+          { "time": "", "title": "Presentations" },
+          { "time": "", "title": "Results Announcement & Judges' Comments" },
+          { "time": "18:00", "title": "Closing" },
+          { "time": "After Closing", "title": "Social Gathering" }
+        ]
+      }
+    ]
   },
   "Speakers": {
     "title": "Judges",

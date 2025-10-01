@@ -73,13 +73,13 @@
           "imageUrl": "photo_terashi"
         },
         {
-          "name": "",
-          "affiliation": "東京大学\u00A0",
-          "imageUrl": "photo_default"
+          "name": "藤堂眞治",
+          "affiliation": "東京大学\u00A0\n教授",
+          "imageUrl": "photo_todo"
         },
         {
           "name": "堀井洋",
-          "affiliation": "IBM Quantum Japan 統括部長",
+          "affiliation": "IBM Quantum Japan\n統括部長",
           "imageUrl": "photo_horii"
         }
       ]
@@ -94,7 +94,7 @@
     "list": [
         {
           "name": "今村宗一郎",
-          "affiliation": "理学系研究科\u00A0修士\n運営代表",
+          "affiliation": "理学系研究科\u00A0修士\n*運営代表",
           "imageUrl": "photo_imamura"
         },
         {

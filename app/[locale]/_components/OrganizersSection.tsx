@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import Image from "next/image";
+import Image, { type StaticImageData } from "next/image";
 
 import imamuraPhoto from '@/public/images/photo_imamura.jpeg';
 import haradaPhoto from '@/public/images/photo_harada.jpg';
@@ -15,12 +15,14 @@ const organizerImages = {
   'photo_komada': komadaPhoto,
   'photo_hayashi': hayashiPhoto,
   'photo_naito': naitoPhoto,
-};
+} satisfies Record<string, StaticImageData>;
+
+type OrganizerImageKey = keyof typeof organizerImages;
 
 type Organizer = {
   name: string;
   affiliation: string;
-  imageUrl: string;
+  imageUrl: OrganizerImageKey;
 };
 
 export default function OrganizersSection() {

@@ -60,7 +60,6 @@
   "Speakers": {
     "title": "Judges",
     "desc": "For this hackathon, judging will be conducted by the following four judges.",
-    "names": ["Speaker A", "Speaker B", "Speaker C"],
     "subtitle": "Title • Affiliation",
     "list": [
         {
@@ -74,9 +73,9 @@
           "imageUrl": "photo_terashi"
         },
         {
-          "name": "",
-          "affiliation": "University of Tokyo\n",
-          "imageUrl": "photo_default"
+          "name": "TODO Synge",
+          "affiliation": "University of Tokyo\nProfessor",
+          "imageUrl": "photo_todo"
         },
         {
           "name": "HORII Hiroshi",
@@ -95,7 +94,7 @@
     "list": [
         {
           "name": "IMAMURA Soichiro",
-          "affiliation": "M.S. in Physics\nLead Organizer",
+          "affiliation": "M.S. in Science\n*Lead Organizer",
           "imageUrl": "photo_imamura"
         },
         {
@@ -115,7 +114,7 @@
         },
         {
           "name": "NAITO Soshun",
-          "affiliation": "Ph.D. in Information Science and Technology",
+          "affiliation": "D.S. in Information Science and Technology",
           "imageUrl": "photo_naito"
         }
       ]

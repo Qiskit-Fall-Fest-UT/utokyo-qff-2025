@@ -60,7 +60,6 @@
   "Speakers": {
     "title": "審査員",
     "desc": "このハッカソンでは、以下4名の審査員によって審査が行われます。",
-    "names": ["Speaker A", "Speaker B", "Speaker C"],
     "subtitle": "役職・所属",
     "list": [
         {
@@ -88,6 +87,37 @@
   "Venue": {
     "title": "開催場所",
     "desc": "会場情報、地図リンク、学生オーガナイザー、SNSリンクなど…"
+  },
+  "Organizers": {
+    "title": "運営メンバー",
+    "desc": "このハッカソンは東京大学の学生メンバーによって運営されています。",
+    "list": [
+        {
+          "name": "今村宗一郎",
+          "affiliation": "理学系研究科\u00A0修士\n運営代表",
+          "imageUrl": "photo_imamura"
+        },
+        {
+          "name": "原田萌恵子",
+          "affiliation": "工学系研究科\u00A0修士",
+          "imageUrl": "photo_harada"
+        },
+        {
+          "name": "駒田洲",
+          "affiliation": "理学系研究科\u00A0修士",
+          "imageUrl": "photo_komada"
+        },
+        {
+          "name": "林 啓道",
+          "affiliation": "工学系研究科\u00A0修士",
+          "imageUrl": "photo_hayashi"
+        },
+        {
+          "name": "内藤 壮俊",
+          "affiliation": "情報理工学系研究科\u00A0博士",
+          "imageUrl": "photo_naito"
+        }
+      ]
   },
   "Footer": {
     "credit": "Next.js と Tailwind で構築"

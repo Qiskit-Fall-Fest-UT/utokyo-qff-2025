@@ -89,6 +89,37 @@
     "title": "Venue",
     "desc": "Venue details, map link, student coordinators, social links…"
   },
+  "Organizers": {
+    "title": "Organizers",
+    "desc": "This hackathon is organized by students from the University of Tokyo.",
+    "list": [
+        {
+          "name": "IMAMURA Soichiro",
+          "affiliation": "M.S. in Physics\nLead Organizer",
+          "imageUrl": "photo_imamura"
+        },
+        {
+          "name": "HARADA Moeko",
+          "affiliation": "M.S. in Engineering",
+          "imageUrl": "photo_harada"
+        },
+        {
+          "name": "KOMADA Shu",
+          "affiliation": "M.S. in Science",
+          "imageUrl": "photo_komada"
+        },
+        {
+          "name": "HAYASHI Hiromichi",
+          "affiliation": "M.S. in Engineering",
+          "imageUrl": "photo_hayashi"
+        },
+        {
+          "name": "NAITO Soshun",
+          "affiliation": "Ph.D. in Information Science and Technology",
+          "imageUrl": "photo_naito"
+        }
+      ]
+  },
   "Footer": {
     "credit": "Built with Next.js & Tailwind"
   },

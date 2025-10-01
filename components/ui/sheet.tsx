@@ -11,7 +11,10 @@ export const SheetClose = DialogPrimitive.Close;
 export const SheetTitle = DialogPrimitive.Title;
 export const SheetDescription = DialogPrimitive.Description;
 
-export function SheetOverlay({ className = "", ...props }: React.ComponentPropsWithoutRef<typeof DialogPrimitive.Overlay>) {
+export function SheetOverlay({
+  className = "",
+  ...props
+}: React.ComponentPropsWithoutRef<typeof DialogPrimitive.Overlay>) {
   return (
     <DialogPrimitive.Overlay
       className={
@@ -28,7 +31,9 @@ export function SheetContent({
   className = "",
   children,
   ...props
-}: React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content> & { side?: SheetSide }) {
+}: React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content> & {
+  side?: SheetSide;
+}) {
   const sideClasses: Record<SheetSide, string> = {
     top: "inset-x-0 top-0 h-auto",
     right: "inset-y-0 right-0 h-full",

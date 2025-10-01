@@ -48,27 +48,42 @@ export default function Navigation() {
             </div>
             <nav className="mt-4 flex flex-col gap-1">
               <SheetClose asChild>
-                <a href="#about" className="rounded-lg px-3 py-2 hover:bg-gray-100">
+                <a
+                  href="#about"
+                  className="rounded-lg px-3 py-2 hover:bg-gray-100"
+                >
                   {t("Nav.about")}
                 </a>
               </SheetClose>
               <SheetClose asChild>
-                <a href="#partners" className="rounded-lg px-3 py-2 hover:bg-gray-100">
+                <a
+                  href="#partners"
+                  className="rounded-lg px-3 py-2 hover:bg-gray-100"
+                >
                   {t("Nav.partners")}
                 </a>
               </SheetClose>
               <SheetClose asChild>
-                <a href="#schedule" className="rounded-lg px-3 py-2 hover:bg-gray-100">
+                <a
+                  href="#schedule"
+                  className="rounded-lg px-3 py-2 hover:bg-gray-100"
+                >
                   {t("Nav.schedule")}
                 </a>
               </SheetClose>
               <SheetClose asChild>
-                <a href="#speakers" className="rounded-lg px-3 py-2 hover:bg-gray-100">
+                <a
+                  href="#speakers"
+                  className="rounded-lg px-3 py-2 hover:bg-gray-100"
+                >
                   {t("Nav.speakers")}
                 </a>
               </SheetClose>
               <SheetClose asChild>
-                <a href="#venue" className="rounded-lg px-3 py-2 hover:bg-gray-100">
+                <a
+                  href="#venue"
+                  className="rounded-lg px-3 py-2 hover:bg-gray-100"
+                >
                   {t("Nav.venue")}
                 </a>
               </SheetClose>

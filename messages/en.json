@@ -60,7 +60,6 @@
   "Speakers": {
     "title": "Judges",
     "desc": "For this hackathon, judging will be conducted by the following four judges.",
-    "names": ["Speaker A", "Speaker B", "Speaker C"],
     "subtitle": "Title • Affiliation",
     "list": [
         {
@@ -74,9 +73,9 @@
           "imageUrl": "photo_terashi"
         },
         {
-          "name": "",
-          "affiliation": "University of Tokyo\n",
-          "imageUrl": "photo_default"
+          "name": "TODO Synge",
+          "affiliation": "University of Tokyo\nProfessor",
+          "imageUrl": "photo_todo"
         },
         {
           "name": "HORII Hiroshi",
@@ -88,6 +87,37 @@
   "Venue": {
     "title": "Venue",
     "desc": "Venue details, map link, student coordinators, social links…"
+  },
+  "Organizers": {
+    "title": "Organizers",
+    "desc": "This hackathon is organized by students from the University of Tokyo.",
+    "list": [
+        {
+          "name": "IMAMURA Soichiro",
+          "affiliation": "M.S. in Science\n*Lead Organizer",
+          "imageUrl": "photo_imamura"
+        },
+        {
+          "name": "HARADA Moeko",
+          "affiliation": "M.S. in Engineering",
+          "imageUrl": "photo_harada"
+        },
+        {
+          "name": "KOMADA Shu",
+          "affiliation": "M.S. in Science",
+          "imageUrl": "photo_komada"
+        },
+        {
+          "name": "HAYASHI Hiromichi",
+          "affiliation": "M.S. in Engineering",
+          "imageUrl": "photo_hayashi"
+        },
+        {
+          "name": "NAITO Soshun",
+          "affiliation": "D.S. in Information Science and Technology",
+          "imageUrl": "photo_naito"
+        }
+      ]
   },
   "Footer": {
     "credit": "Built with Next.js & Tailwind"

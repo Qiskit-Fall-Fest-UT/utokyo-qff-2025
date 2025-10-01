@@ -5,13 +5,13 @@ import Image, { type StaticImageData } from "next/image";
 
 import aiharaPhoto from "@/public/images/photo_aihara.png";
 import terashiPhoto from "@/public/images/photo_terashi.jpeg";
-import todoPhoto from "@/public/images/photo_default.png"; // 仮のインポート
+import todoPhoto from "@/public/images/photo_todo.jpg";
 import horiiPhoto from "@/public/images/photo_horii.jpeg";
 
 const speakerImages = {
   photo_aihara: aiharaPhoto,
   photo_terashi: terashiPhoto,
-  photo_default: todoPhoto,
+  photo_todo: todoPhoto,
   photo_horii: horiiPhoto,
 } satisfies Record<string, StaticImageData>;
 

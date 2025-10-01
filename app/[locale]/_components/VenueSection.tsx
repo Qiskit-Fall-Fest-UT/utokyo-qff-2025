@@ -6,7 +6,10 @@ export default function VenueSection() {
   const t = useTranslations();
 
   return (
-    <section id="venue" className="mx-auto max-w-6xl px-8 md:px-4 py-8 pb-16 md:py-16 md:pb-20">
+    <section
+      id="venue"
+      className="mx-auto max-w-6xl px-8 md:px-4 py-8 pb-16 md:py-16 md:pb-20"
+    >
       <h2 className="text-2xl font-semibold">{t("Venue.title")}</h2>
       <div className="mt-6 rounded-xl overflow-hidden border">
         <div className="relative aspect-[3/1]">

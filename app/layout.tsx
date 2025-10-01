@@ -20,12 +20,20 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: `${basePath}/favicon/favicon.ico`, type: "image/x-icon" },
-      { url: `${basePath}/favicon/favicon-16x16.png`, sizes: "16x16", type: "image/png" },
-      { url: `${basePath}/favicon/favicon-32x32.png`, sizes: "32x32", type: "image/png" }
+      {
+        url: `${basePath}/favicon/favicon-16x16.png`,
+        sizes: "16x16",
+        type: "image/png",
+      },
+      {
+        url: `${basePath}/favicon/favicon-32x32.png`,
+        sizes: "32x32",
+        type: "image/png",
+      },
     ],
-    apple: `${basePath}/favicon/apple-touch-icon.png`
+    apple: `${basePath}/favicon/apple-touch-icon.png`,
   },
-  manifest: `${basePath}/favicon/site.webmanifest`
+  manifest: `${basePath}/favicon/site.webmanifest`,
 };
 
 export default function RootLayout({
@@ -35,7 +43,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja" className="dark">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         {children}
       </body>
     </html>

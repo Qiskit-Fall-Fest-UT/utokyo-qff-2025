@@ -30,7 +30,7 @@ export default function OrganizersSection() {
   const speakers = (t.raw("Organizers.list") as Organizer[]) || [];
 
   return (
-    <section id="organizers" className="mx-auto max-w-6xl px-8 md:px-4 py-12 md:py-16">
+    <section id="organizers" className="mx-auto max-w-6xl px-8 md:px-4 py-6 md:py-16">
       <h2 className="text-2xl md:text-3xl font-semibold">{t("Organizers.title")}</h2>
       <p className="mt-4 md:mt-8 md:ml-6 text-white leading-relaxed text-justify text-sm md:text-base">
         {t("Organizers.desc")}

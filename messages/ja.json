@@ -3,8 +3,9 @@
     "about": "概要",
     "partners": "パートナー",
     "schedule": "スケジュール",
-    "speakers": "登壇者",
+    "speakers": "審査員",
     "venue": "会場",
+    "contact": "お問い合わせ",
     "register": "申し込む"
   },
   "Hero": {
@@ -36,7 +37,7 @@
     "desc": "Qiskit Fall Festは、量子コンピューティングをテーマに世界中の大学で開催されるグローバルイベントシリーズです。毎年10月から11月にかけて、学生を中心に企画・運営され、IBM Quantumのサポートのもと、多彩なプログラムが展開されます。\nUTokyo Qiskit Fall Fest 2025では、量子技術に関心を持つ学生を対象に、ワークショップやハッカソンを通じて量子コンピュータを学び、体験できる場を提供します。参加者同士が交流しながら学び合い、挑戦することを目指しています。\n2025年は量子力学誕生から100周年。その歴史を称え、今年のQiskit Fall Festは量子科学とイノベーションの歩みをテーマに開催されます。記念すべきこの年に、東京大学から量子コンピュータの未来へ一緒に踏み出しましょう！"
   },
   "Flow": {
-    "title": "イベント内容",
+    "title": "Event Outline",
     "step0Title": "Step 0\u00A0:\u00A0 事前講習会",
     "step0Subdesc": "※参加任意",
     "step0Desc": "Qiskit環境構築や基本のゲート操作のレクチャーなど、\nQiskit未経験者向けのキャッチアップを行います。",
@@ -54,52 +55,56 @@
     "sponsor": "スポンサー"
   },
   "Schedule": {
-    "title": "スケジュール",
+    "title": "Event Details",
     "desc": "ハッカソンの具体的なスケジュールは参加登録後にご案内いたします。",
+    "entryPeriodTitle": "エントリー期間",
+    "entryPeriod": "10/3(金) 〜 10/24(金)",
+    "entryPeriodDesc": "募集定員に達し次第、応募を締め切る場合があります。お早めにお申し込みください。",
+    "teamFormationPeriodTitle": "開発テーマ発表 & チーム結成",
+    "teamFormationPeriodDesc": "エントリー終了後、開発テーマを発表します。参加者同士でアイデアを出し合い、チームを結成します。",
+    "eventPeriodTitle": "ハッカソン",
+    "eventPeriodDesc": "ハッカソンの具体的なスケジュールは参加登録後にご案内いたします。",
     "days": [
       {
         "date": "Day 0 : 事前講習会",
         "events": [
-          { "time": "", "title": "※任意参加" },
-          { "time": "", "title": "対面・オンラインハイブリッド開催" },
-          { "time": "", "title": "対面開催場所：理学部一号館" },
-          { "time": "10/27(月) 18:30-20:30", "title": "" },
+          { "desc": "※参加任意" },
+          { "desc": "対面・オンラインハイブリッド開催" },
+          { "desc": "対面開催場所：本郷キャンパス" },
+          { "time": "10/27(月)\u00A0\u00A0\u00A018:30-20:30" },
           { "time": "", "title": "内容未定" },
-          { "time": "10/29(水) 18:30-20:30", "title": "" },
+          { "time": "10/29(水)\u00A0\u00A0\u00A018:30-20:30" },
           { "time": "", "title": "内容未定" },
-          { "time": "10/30(木) 18:30-20:30", "title": "" },
+          { "time": "10/30(木)\u00A0\u00A0\u00A018:30-20:30" },
           { "time": "", "title": "内容未定" }
         ]
       },
       {
         "date": "Day 1 : 11月1日 (土)",
         "events": [
-          { "time": "10:00", "title": "オープニング" },
+          { "time": "10:00-", "title": "オープニング" },
           { "time": "", "title": "レクチャー & ハンズオン" },
           { "time": "", "title": "チームビルディング" },
           { "time": "", "title": "チーム開発" },
           { "time": "Lunch Break", "title": "" },
           { "time": "", "title": "チーム開発" },
           { "time": "", "title": "中間報告" },
-          { "time": "18:00", "title": "クロージング" }
+          { "time": "-18:00", "title": "クロージング" }
         ]
       },
       {
         "date": "Day 2 : 11月8日 (土)",
         "events": [
-          { "time": "10:00", "title": "オープニング" },
-          { "time": "", "title": "チーム作業" },
-          { "time": "Lunch Break", "title": "" },
-          { "time": "", "title": "チーム作業" },
-          { "time": "", "title": "中間報告" },
-          { "time": "18:00", "title": "クロージング" },
+          { "time": "10:00-", "title": "オープニング" },
           { "time": "", "title": "チーム開発" },
-          { "time": "", "title": "成果物提出" },
+          { "time": "Lunch Break", "title": "" },
+          { "time": "", "title": "チーム開発" },
+          { "time": "15:00", "title": "成果物提出" },
           { "time": "成果発表会", "title": "" },
           { "time": "", "title": "プレゼンテーション" },
           { "time": "", "title": "結果発表 & 審査員コメント" },
-          { "time": "18:00", "title": "クロージング" },
-          { "time": "終了後", "title": "懇親会" }
+          { "time": "-18:00", "title": "クロージング" },
+          { "time": "終了後", "title": "懇親会(任意参加)" }
         ]
       }
     ]
@@ -134,6 +139,16 @@
   "Venue": {
     "title": "開催場所",
     "desc": "会場情報、地図リンク、学生オーガナイザー、SNSリンクなど…"
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "desc": "お問い合わせの際は、以下のメールアドレスの[at]を@に変えてご連絡ください。",
+    "mail": "utokyo.qff.2025 [at] gmail.com"
+  },
+  "Socials": {
+    "title": "Follow Us!",
+    "x-desc": "X",
+    "linkedin-desc": "LinkedIn"
   },
   "Organizers": {
     "title": "運営メンバー",

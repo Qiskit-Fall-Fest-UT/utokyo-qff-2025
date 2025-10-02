@@ -4,7 +4,7 @@
     "partners": "パートナー",
     "schedule": "スケジュール",
     "speakers": "審査員",
-    "venue": "会場",
+    "venue": "アクセス",
     "contact": "お問い合わせ",
     "register": "申し込む"
   },
@@ -137,8 +137,8 @@
       ]
   },
   "Venue": {
-    "title": "開催場所",
-    "desc": "会場情報、地図リンク、学生オーガナイザー、SNSリンクなど…"
+    "title": "アクセス",
+    "desc": "会場へのアクセス方法は<link>こちら</link>"
   },
   "Contact": {
     "title": "Contact Us",

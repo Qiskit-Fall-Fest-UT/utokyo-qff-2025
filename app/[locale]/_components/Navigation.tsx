@@ -35,7 +35,7 @@ export default function Navigation() {
             </SheetDescription>
 
             <div className="flex items-center justify-between">
-              <span className="text-sm font-medium">Menu</span>
+              <span className="pl-2 font-bold">Menu</span>
               <SheetClose asChild>
                 <button
                   type="button"
@@ -87,11 +87,19 @@ export default function Navigation() {
                   {t("Nav.venue")}
                 </a>
               </SheetClose>
+              <SheetClose asChild>
+                <a
+                  href="#contact"
+                  className="rounded-lg px-3 py-2 hover:bg-gray-100"
+                >
+                  {t("Nav.contact")}
+                </a>
+              </SheetClose>
             </nav>
             <SheetClose asChild>
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdesRsVZpp7WS1vut0jc3J5tKT63Y1fYg9X1xBEedxuPAL-fQ/viewform?usp=header"
-                className="mt-4 inline-flex items-center justify-center rounded-lg px-4 py-2 border"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfRjBFBd7d5qw4YAcDZAWui4QDAN8C8qHNVSp0Aj_irC9OjQA/viewform?usp=header"
+                className="mt-4 inline-flex items-center justify-center rounded-lg px-4 py-2 border border-[#c8628f] bg-[#ff7eb6] text-white font-bold"
               >
                 {t("Nav.register")}
               </a>
@@ -107,12 +115,13 @@ export default function Navigation() {
           <a href="#schedule">{t("Nav.schedule")}</a>
           <a href="#speakers">{t("Nav.speakers")}</a>
           <a href="#venue">{t("Nav.venue")}</a>
+          <a href="#contact">{t("Nav.contact")}</a>
         </nav>
 
         <LanguageSwitcher />
 
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdesRsVZpp7WS1vut0jc3J5tKT63Y1fYg9X1xBEedxuPAL-fQ/viewform?usp=header"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfRjBFBd7d5qw4YAcDZAWui4QDAN8C8qHNVSp0Aj_irC9OjQA/viewform?usp=header"
           className="hidden md:inline-flex items-center rounded-lg px-4 py-1 border border-[#c8628f] bg-[#ff7eb6] font-bold hover:bg-[#c8628f]"
         >
           {t("Nav.register")}

@@ -3,8 +3,9 @@
     "about": "About",
     "partners": "Partners",
     "schedule": "Schedule",
-    "speakers": "Speakers",
+    "speakers": "Judges",
     "venue": "Venue",
+    "contact": "Contact Us",
     "register": "Register"
   },
   "Hero": {
@@ -25,7 +26,7 @@
     "date": "2025.11.01 sat\u00A0\u00A0&\u00A0\u00A011.08 sat",
     "note": "*Participation on both days is mandatory.",
     "place-str": "《 \u00A0Place\u00A0 》",
-    "place": "The University of Tokyo, Hongo Campus\nFaculty of Science Bldg. 1, Central Bldg. Rm. 341",
+    "place": "The University of Tokyo, \nHongo Campus, \nFaculty of Science Bldg. 1, \nCentral Bldg. Rm. 341",
     "app-str": "《 \u00A0Application\u00A0 》",
     "app-desc": "Fee: Free\nEligibility: \n    Students from the University of Tokyo\n    (Undergraduate or Graduate)\nQiskit Experience: Not required",
     "app-note": "Register Here",
@@ -36,7 +37,7 @@
     "desc": "The Qiskit Fall Fest is a global series of events held at universities worldwide on the theme of quantum computing. Taking place annually from October to November, these events are primarily planned and run by students with support from IBM Quantum, featuring a diverse range of programs.\nThe UTokyo Qiskit Fall Fest 2025 offers a venue for students interested in quantum technology to learn and experience quantum computers through workshops and a hackathon, aiming to foster an environment of collaborative learning and challenge among participants.\nThe year 2025 marks the 100th anniversary of the initial development of quantum mechanics. To honor this history, Qiskit Fall Fest in 2025 is themed around the progress of quantum science and innovation. Let's take a step together toward the future of quantum computing from the University of Tokyo!"
   },
   "Flow": {
-    "title": "Event Details",
+    "title": "Event Outline",
     "step0Title": "Step 0: Pre Workshop",
     "step0Subdesc": "*Optional",
     "step0Desc": "We will hold a catch-up session for participants new to Qiskit,\ncovering fundamentals such as environment setup and basic gate operations.",
@@ -54,15 +55,22 @@
     "sponsor": "Sponsor"
   },
   "Schedule": {
-    "title": "Schedule",
+    "title": "Event Details",
     "desc": "The detailed hackathon schedule will be provided after the participant registration.",
+    "entryPeriodTitle": "Registration Period",
+    "entryPeriod": "Oct. 3 (Fri) - Oct. 24 (Fri)",
+    "entryPeriodDesc": "Applications may close once we reach capacity. Please register early.",
+    "teamFormationPeriodTitle": "Prompt Release & Team Formation",
+    "teamFormationPeriodDesc": "After registration closes, the hackathon themes will be announced. Participants will then brainstorm ideas and form teams.",
+    "eventPeriodTitle": "Hackathon",
+    "eventPeriodDesc": "The full event schedule will be shared with registered participants.",
     "days": [
       {
         "date": "Day 0: Pre-Training Sessions",
         "events": [
           { "time": "", "title": "*Optional Attendance" },
-          { "time": "", "title": "Hybrid (In-person and Online) Event" },
-          { "time": "", "title": "In-person Venue: Science Building No.1" },
+          { "time": "", "title": "Hybrid Event \n(In-person and Online)" },
+          { "time": "", "title": "In-person Venue: \n    Hongo Campus" },
           { "time": "Mon, Oct. 27th, 18:30-20:30", "title": "" },
           { "time": "", "title": "Contents to be determined" },
           { "time": "Wed, Oct. 29th, 18:30-20:30", "title": "" },
@@ -72,34 +80,30 @@
         ]
       },
       {
-        "date": "Day 1 : November 1st (sat)",
+        "date": "Day 1 : Nov. 1 (Sat)",
         "events": [
-          { "time": "10:00", "title": "Opening" },
+          { "time": "10:00-", "title": "Opening Ceremony" },
           { "time": "", "title": "Lecture & Hands-on Session" },
           { "time": "", "title": "Team Building" },
           { "time": "", "title": "Team Development" },
           { "time": "Lunch Break", "title": "" },
           { "time": "", "title": "Team Development" },
           { "time": "", "title": "Mid-term Report" },
-          { "time": "18:00", "title": "Closing" }
+          { "time": "-18:00", "title": "Closing" }
         ]
       },
       {
-        "date": "Day 2 : November 8th (sat)",
+        "date": "Day 2 : Nov. 8 (Sat)",
         "events": [
-          { "time": "10:00", "title": "Opening" },
-          { "time": "", "title": "Team Work" },
-          { "time": "Lunch Break", "title": "" },
-          { "time": "", "title": "Team Work" },
-          { "time": "", "title": "Mid-term Report" },
-          { "time": "18:00", "title": "Closing" },
+          { "time": "10:00-", "title": "Opening" },
           { "time": "", "title": "Team Development" },
-          { "time": "", "title": "Submission of Deliverables" },
-          { "time": "Presentation Session", "title": "" },
-          { "time": "", "title": "Presentations" },
-          { "time": "", "title": "Results Announcement & Judges' Comments" },
-          { "time": "18:00", "title": "Closing" },
-          { "time": "After Closing", "title": "Social Gathering" }
+          { "time": "Lunch Break", "title": "" },
+          { "time": "", "title": "Team Development" },
+          { "time": "15:00", "title": "Final Submissions Due" },
+          { "time": "", "title": "Final Presentations" },
+          { "time": "", "title": "Winner Announcement \n& Judge Feedback" },
+          { "time": "-18:00", "title": "Closing Ceremony" },
+          { "time": "Afterwards", "title": "Social Event (Optional)" }
         ]
       }
     ]
@@ -134,6 +138,16 @@
   "Venue": {
     "title": "Venue",
     "desc": "Venue details, map link, student coordinators, social links…"
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "desc": "To contact us, please change [at] to @ in the following email address.",
+    "mail": "utokyo.qff.2025 [at] gmail.com"
+  },
+  "Socials": {
+    "title": "Follow Us!",
+    "x-desc": "X",
+    "linkedin-desc": "LinkedIn"
   },
   "Organizers": {
     "title": "Organizers",

@@ -11,7 +11,7 @@ export default function PartnersSection() {
   return (
     <section
       id="partners"
-      className="mx-auto max-w-6xl px-4 my-4 md:my-16 pt-14 pb-16 border-y botder-b px-8 md:px-0"
+      className="mx-auto max-w-6xl px-4 my-4 md:my-8 pt-8 md:pt-14 pb-8 md:pb-16 border-y botder-b px-8 md:px-0"
     >
       <h2 className="text-2xl md:text-3xl md:pb-4 font-semibold">
         {t("Partners.title")}

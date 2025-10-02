@@ -21,7 +21,7 @@ export default function FlowSection() {
     ));
 
   return (
-    <section id="flow" className="mx-auto max-w-6xl px-8 md:px-4 py-8">
+    <section id="flow" className="mx-auto max-w-6xl px-8 md:px-4 py-8 md:mb-8">
       <h2 className="text-2xl md:text-3xl font-semibold text-center pt-12 md:pt-0 mb-8 md:mb-16 text-[#c49cee]">
         {t("Flow.title")}
       </h2>

@@ -10,6 +10,8 @@ import PartnersSection from "./_components/PartnersSection";
 import ScheduleSection from "./_components/ScheduleSection";
 import SpeakersSection from "./_components/SpeakersSection";
 import VenueSection from "./_components/VenueSection";
+import ContactSection from "./_components/ContactSection";
+import SocialsSection from "./_components/SocialsSection";
 import OrganizersSection from "./_components/OrganizersSection";
 
 export default function Page() {
@@ -24,6 +26,8 @@ export default function Page() {
       <ScheduleSection />
       <SpeakersSection />
       <VenueSection />
+      <ContactSection />
+      <SocialsSection />
       <OrganizersSection />
       <FooterSection />
     </main>

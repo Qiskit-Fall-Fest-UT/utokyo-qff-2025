@@ -4,7 +4,7 @@
     "partners": "Partners",
     "schedule": "Schedule",
     "speakers": "Judges",
-    "venue": "Venue",
+    "venue": "Access",
     "contact": "Contact Us",
     "register": "Register"
   },
@@ -136,8 +136,8 @@
       ]
   },
   "Venue": {
-    "title": "Venue",
-    "desc": "Venue details, map link, student coordinators, social links…"
+    "title": "Access",
+    "desc": "Directions to the venue can be found <link>here</link>."
   },
   "Contact": {
     "title": "Contact Us",

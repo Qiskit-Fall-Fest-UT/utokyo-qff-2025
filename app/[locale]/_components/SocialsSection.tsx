@@ -12,7 +12,7 @@ export default function SocialsSection() {
   return (
     <section
       id="socials"
-      className="mx-auto max-w-6xl px-8 md:px-4 py-6 md:py-16"
+      className="mx-auto max-w-6xl px-8 md:px-4 py-6 md:py-8"
     >
       <h2 className="text-2xl md:text-3xl font-semibold">
         {t("Socials.title")}

@@ -25,7 +25,11 @@
     "date": "2025.11.01 sat\u00A0\u00A0&\u00A0\u00A011.08 sat",
     "note": "*Participation on both days is mandatory.",
     "place-str": "《 \u00A0Place\u00A0 》",
-    "place": "The University of Tokyo, Hongo Campus\nFaculty of Science Bldg. 1, Central Bldg. Rm. 341"
+    "place": "The University of Tokyo, Hongo Campus\nFaculty of Science Bldg. 1, Central Bldg. Rm. 341",
+    "app-str": "《 \u00A0Application\u00A0 》",
+    "app-desc": "Fee: Free\nEligibility: \n    Students from the University of Tokyo\n    (Undergraduate or Graduate)\nQiskit Experience: Not required",
+    "app-note": "Register Here",
+    "app-note2": "*Applications may close once we reach capacity."
   },
   "About": {
     "title": "What is Qiskit Fall Fest?",

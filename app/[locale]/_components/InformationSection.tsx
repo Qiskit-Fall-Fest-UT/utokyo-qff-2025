@@ -20,7 +20,6 @@ export default function InformationSection() {
       <p className="mt-10 md:mt-16 mb-4 text-[#c49cee] text-xl">{t("Information.place-str")}</p>
       <div className="text-white text-xl md:text-3xl font-semibold md:mb-12 flex flex-col gap-3 pt-2 md:pt-4">
         {placeLines.map((line, index) => (
-          // 各行を <span> で囲み、<br /> を削除
           <span key={index}>
             {line}
           </span>
@@ -31,7 +30,7 @@ export default function InformationSection() {
       <div className="md:flex md:justify-center md:mb-8">
           
           <div className="md:w-1/3 pt-4">
-              <p className="text-base md:text-lg whitespace-pre-wrap text-left pl-12 md:pl-8">
+              <p className="text-base md:text-lg whitespace-pre-wrap text-left pl-12 md:pl-0">
                   {t("Information.app-desc")}
               </p>
           </div>
@@ -46,7 +45,7 @@ export default function InformationSection() {
                       {t("Hero.cta")}
                   </a>
               </div>
-              <p className="mt-2 md:mt-6 text-balance text-white max-w-3xl text-center">
+              <p className="mt-2 md:mt-4 text-balance text-white max-w-3xl text-center">
                   {t("Information.app-note")}
               </p>
               <p className="mt-4 md:mt-2 text-sm text-white max-w-3xl text-center">

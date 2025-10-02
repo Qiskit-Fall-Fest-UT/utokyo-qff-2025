@@ -36,7 +36,7 @@ export default function HeroSection() {
 
         {/* 登録ボタン (モバイル) */}
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdesRsVZpp7WS1vut0jc3J5tKT63Y1fYg9X1xBEedxuPAL-fQ/viewform?usp=header"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfRjBFBd7d5qw4YAcDZAWui4QDAN8C8qHNVSp0Aj_irC9OjQA/viewform?usp=header"
           target="_blank"
           className="inline-block rounded-lg px-6 py-2 border border-[#c8628f] bg-[#ff7eb6] backdrop-blur font-bold hover:bg-[#c8628f] transition"
         >
@@ -70,7 +70,7 @@ export default function HeroSection() {
 
         <div className="mt-8">
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdesRsVZpp7WS1vut0jc3J5tKT63Y1fYg9X1xBEedxuPAL-fQ/viewform?usp=header"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfRjBFBd7d5qw4YAcDZAWui4QDAN8C8qHNVSp0Aj_irC9OjQA/viewform?usp=header"
             target="_blank"
             className="inline-block rounded-lg px-6 py-3 border border-[#c8628f] bg-[#ff7eb6] backdrop-blur font-bold hover:bg-[#c8628f] transition"
           >

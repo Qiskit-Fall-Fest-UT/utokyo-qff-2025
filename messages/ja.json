@@ -28,9 +28,9 @@
     "place-str": "《 \u00A0Place\u00A0 》",
     "place": "東京大学本郷キャンパス\n理学部1号館 中央棟 341共通講義室",
     "app-str": "《 \u00A0Application\u00A0 》",
-    "app-desc": "参加費：無料\n応募資格：東京大学の学生\n                    (学部生または大学院生)\nQiskit経験：不問",
+    "app-desc": "参加費：無料\n\n応募資格：東京大学の学生\n                    (学部生または大学院生)\n\nQiskit経験：不問",
     "app-note": "参加登録はこちらから",
-    "app-note2": "※募集人数に達し次第応募を締め切る場合があります。"
+    "app-note2": "※フォームにアクセスするには東京大学ECCSアカウントでのログインが必要です。\n※募集人数に達し次第応募を締め切る場合があります。"
   },
   "About": {
     "title": "What is Qiskit Fall Fest?",

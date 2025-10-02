@@ -48,7 +48,7 @@ export default function InformationSection() {
               <p className="mt-2 md:mt-4 text-balance text-white max-w-3xl text-center">
                   {t("Information.app-note")}
               </p>
-              <p className="mt-4 md:mt-2 text-sm text-white max-w-3xl text-center">
+              <p className="mt-6 md:mt-4 text-sm text-white max-w-3xl px-4 md:px-0 md:pl-2 text-left whitespace-pre-wrap">
                   {t("Information.app-note2")}
               </p>
           </div>

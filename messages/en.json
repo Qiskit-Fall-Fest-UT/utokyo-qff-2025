@@ -28,9 +28,9 @@
     "place-str": "《 \u00A0Place\u00A0 》",
     "place": "The University of Tokyo, \nHongo Campus, \nFaculty of Science Bldg. 1, \nCentral Bldg. Rm. 341",
     "app-str": "《 \u00A0Application\u00A0 》",
-    "app-desc": "Fee: Free\nEligibility: \n    Students from the University of Tokyo\n    (Undergraduate or Graduate)\nQiskit Experience: Not required",
+    "app-desc": "Fee: Free\n\nEligibility: \n    Students from the University of Tokyo\n    (Undergraduate or Graduate)\n\nQiskit Experience: Not required",
     "app-note": "Register Here",
-    "app-note2": "*Applications may close once we reach capacity."
+    "app-note2": "*Please log in with your University of Tokyo ECCS account to access the form.\n*Applications may close once we reach capacity."
   },
   "About": {
     "title": "What is Qiskit Fall Fest?",

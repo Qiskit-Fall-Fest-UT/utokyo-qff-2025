@@ -176,8 +176,13 @@
       },
       {
         "name": "内藤 壮俊",
-        "affiliation": "情報理工学系研究科\u00A0博士",
+        "affiliation": "情報理工学系研究科\n博士",
         "imageUrl": "photo_naito"
+      },
+      {
+        "name": "室田 佳亮",
+        "affiliation": "理学系研究科\u00A0博士",
+        "imageUrl": "photo_murota"
       }
     ]
   },

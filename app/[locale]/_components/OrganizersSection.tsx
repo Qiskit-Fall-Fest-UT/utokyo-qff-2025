@@ -8,7 +8,6 @@ import haradaPhoto from '@/public/images/photo_harada.jpg';
 import komadaPhoto from '@/public/images/photo_komada.jpg';
 import hayashiPhoto from '@/public/images/photo_hayashi.jpg';
 import naitoPhoto from '@/public/images/photo_naito.jpg';
-import murotaPhoto from '@/public/images/photo_murota.jpeg';
 
 const organizerImages = {
   'photo_imamura': imamuraPhoto,
@@ -16,7 +15,6 @@ const organizerImages = {
   'photo_komada': komadaPhoto,
   'photo_hayashi': hayashiPhoto,
   'photo_naito': naitoPhoto,
-  'photo_murota': murotaPhoto,
 } satisfies Record<string, StaticImageData>;
 
 type OrganizerImageKey = keyof typeof organizerImages;

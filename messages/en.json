@@ -72,11 +72,11 @@
           { "time": "", "title": "Hybrid Event \n(In-person and Online)" },
           { "time": "", "title": "In-person Venue: \n    Hongo Campus" },
           { "time": "Mon, Oct. 27th, 18:30-20:30", "title": "" },
-          { "time": "", "title": "Contents to be determined" },
+          { "time": "", "title": "Introduction of Qiskit" },
           { "time": "Wed, Oct. 29th, 18:30-20:30", "title": "" },
-          { "time": "", "title": "Contents to be determined" },
+          { "time": "", "title": "Fundamental Algorithms" },
           { "time": "Thu, Oct. 30th, 18:30-20:30", "title": "" },
-          { "time": "", "title": "Contents to be determined" }
+          { "time": "", "title": "Advanced Algorithms\nHackathon Theme Explanation" }
         ]
       },
       {
@@ -84,6 +84,7 @@
         "events": [
           { "time": "10:00-", "title": "Opening Ceremony" },
           { "time": "", "title": "Lecture & Hands-on Session" },
+          { "time": "", "title": "Introduction of Hackathon Solution Proposals" },
           { "time": "", "title": "Team Building" },
           { "time": "", "title": "Team Development" },
           { "time": "Lunch Break", "title": "" },
@@ -177,11 +178,6 @@
         "name": "NAITO Soshun",
         "affiliation": "D.S. in Information Science and Technology",
         "imageUrl": "photo_naito"
-      },
-      {
-        "name": "MUROTA Keisuke",
-        "affiliation": "D.S. in Science",
-        "imageUrl": "photo_murota"
       }
     ]
   },

@@ -64,3 +64,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 -->
 
 ## Utokyo Qiskit Fall Fest 2025
+
+## ハッカソンを始める前の事前準備について
+
+Check the (https://quantum-tokyo.github.io/introduction/intro.html) note for things to do before the hackathon

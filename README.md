@@ -63,9 +63,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 -->
 
-# Utokyo Qiskit Fall Fest 2025
+# UTokyo Qiskit Fall Fest 2025
 
-このリポジトリでは、Utokyo Qiskit Fall Fest 2025の開催に先駆けてテーマ募集を行うとともに、各チームの成果物を共有する場として活用します。
+このリポジトリでは、UTokyo Qiskit Fall Fest 2025の開催に先駆けてテーマ募集を行うとともに、各チームの成果物を共有する場として活用します。
 
 ## ハッカソンを始める前の事前準備について
 ### ハッカソンで使用するQiskitの環境構築  
@@ -80,7 +80,7 @@ Quantum Tokyoにおける、[Qiskitの始め方](https://quantum-tokyo.github.io
 までを実行するようにお願いします。
 
 >[!Important]    
->* 今回のハッカソンではWebブラウザー経由で使用する方法として、**qBraid Lab**の使用を推奨しています。ですが、Qiskitをご自身のパソコンにインストールして頂いても構いません。
+>* 今回のハッカソンではWebブラウザー経由で使用する方法として、**qBraid Lab**の使用を推奨しています。ですが、Qiskitをご自身のパソコンにインストールして使用して頂いても構いません。
 >* **実機の使える時間には制限があるのでそれ以上は一旦やめといてください**。そのため、2.2以降の作業を実デバイスを用いないようにお願いします。
 
 
@@ -90,7 +90,7 @@ Quantum Tokyoにおける、[Qiskitの始め方](https://quantum-tokyo.github.io
 | 日付  | 内容 |
 :-------|:--------:
 | 10/25 | プロンプト募集開始 |
-|       | チーミンング期間  |
+|       | チーム決め期間  |
 | 11/1  | チーム最終決定・実装開始 |
 |       | 実装期間 |
 | 11/8  | 発表・審査 |

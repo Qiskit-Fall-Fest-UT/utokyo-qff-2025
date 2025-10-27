@@ -101,8 +101,8 @@ Quantum Tokyo内の、[Qiskitの始め方](https://quantum-tokyo.github.io/intro
 このリポジトリ内の[Issues](https://github.com/Qiskit-Fall-Fest-UT/utokyo-qff-2025/issues)から、具体的なプロンプトとソリューションを記入してご提出ください。(※ Issuesの詳しい記述方法は、Organizerが用意したテンプレートをご参照ください。)
 
 - **参考資料**  
-  - プロンプトのイメージ : [資料](プロンプト紹介資料_共有用.pdf)  
-  - IBMから提供されたプロンプト案 : [prompt](https://github.com/Qiskit-Fall-Fest-UT/utokyo-qff-2025/tree/main/prompt)
+  - プロンプトのイメージ : [資料](https://github.com/Qiskit-Fall-Fest-UT/utokyo-qff-2025/blob/main/lectures/prompt/プロンプト紹介資料_共有用.pdf)  
+  - IBMから提供されたプロンプト案 : [prompt](https://github.com/Qiskit-Fall-Fest-UT/utokyo-qff-2025/tree/main/lectures/prompt)
 
 ### チーミングについて
 4〜6人で1チームを編成します。Issuesで挙げられたプロンプトの中で、自分が面白そうと思うものに参加表明してください。参加表明は各Issuesのコメントを通して行うことができます。韓国で行われたハッカソンでの[表明方法](https://github.com/qiskit-community/qiskit-hackathon-korea-22/issues/5)を参考にしてください。

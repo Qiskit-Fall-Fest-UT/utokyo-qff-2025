@@ -65,7 +65,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 # UTokyo Qiskit Fall Fest 2025
 
-このリポジトリは、UTokyo Qiskit Fall Fest 2025の開催に先駆けてテーマ募集を行うとともに、各チームの成果物を共有する場として使用します。
+## Winners!!
+- 1位 : [Q-Bitcoin](https://github.com/Yut702/q-bitcoin)
+- 2位 : [繋がろう！心の量子友達](https://github.com/Nevaseme/Connect-Quantum-Soulmate)
+- 3位 : [QuRL](https://github.com/king-p3nguin/utokyo-qiskit-fall-fest-2025-qurl)
+
+
 
 ## ハッカソンを始める前の事前準備について
 ### ハッカソンで使用するQiskitの環境構築  
